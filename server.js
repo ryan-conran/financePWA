@@ -15,7 +15,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect("mongodb://localhost/budget", {
+mongoose.connect("mongodb+srv://ryan-conran:Bridgehouse11%21@cluster0.ilxqg.mongodb.net/budget?authSource=admin&replicaSet=atlas-b5epef-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true", {
   useNewUrlParser: true,
   useFindAndModify: false
 });
